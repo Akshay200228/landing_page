@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import styles from './style';
-import { Navbar, Hero, CardDeal, Features, FAQ, Stats, Footer, Testimonials, About } from './components';
+import { Navbar, Hero, CardDeal, Features, FAQ, Stats, Footer, Testimonials, About, Cards } from './components';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -31,11 +31,40 @@ const App = () => {
       <div className={`${styles.paddingX} ${styles.flexStart}`} data-aos="fade">
         <div className={`${styles.boxWidth}`}>
           <About />
+        </div>
+      </div>
+      <div className={`${styles.paddingX} ${styles.flexStart}`} data-aos="fade">
+        <div className={`${styles.boxWidth}`}>
           <Stats />
-          <CardDeal />
-          <Testimonials />
+        </div>
+      </div>
+      <div className={`${styles.paddingX} ${styles.flexStart}`} data-aos="fade">
+        <div className={`${styles.boxWidth}`}>
+          <Cards />
+        </div>
+      </div>
+      <div className={`${styles.paddingX} ${styles.flexStart}`} data-aos="fade">
+        <div className={`${styles.boxWidth}`}>
           <Features />
+        </div>
+      </div>
+      <div className={`${styles.paddingX} ${styles.flexStart}`} data-aos="fade">
+        <div className={`${styles.boxWidth}`}>
+          <CardDeal />
+        </div>
+      </div>
+      <div className={`${styles.paddingX} ${styles.flexStart}`} data-aos="fade">
+        <div className={`${styles.boxWidth}`}>
+          <Testimonials />
+        </div>
+      </div>
+      <div className={`${styles.paddingX} ${styles.flexStart}`} data-aos="fade">
+        <div className={`${styles.boxWidth}`}>
           <FAQ />
+        </div>
+      </div>
+      <div className={`${styles.paddingX} ${styles.flexStart}`} data-aos="fade">
+        <div className={`${styles.boxWidth}`}>
           <Footer />
         </div>
       </div>

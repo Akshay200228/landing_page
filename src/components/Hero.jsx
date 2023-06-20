@@ -3,10 +3,6 @@ import styles from '../style';
 import { discount, wavo, winwap, heineken, berloni, badoo, instacart, facebook, airbnb, amazon } from '../assets';
 
 const Hero = () => {
-  const logos = [
-
-  ]; // Replace with your array of logo sources
-
   return (
     <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
       <div className={`flex-1 ${styles.flexCenter} flex-col xl:px-0 sm:px-16 px-6`}>

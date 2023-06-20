@@ -7,6 +7,7 @@ import Testimonials from "./Testimonials";
 import Hero from "./Hero";
 import FAQ from "./FAQ";
 import About from "./About";
+import Cards from "./Cards";
 
 export {
   Navbar,
@@ -18,4 +19,5 @@ export {
   Hero,
   FAQ,
   About,
+  Cards
 };

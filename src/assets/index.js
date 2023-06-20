@@ -2,6 +2,9 @@ import airbnb from "./airbnb.png";
 import bill from "./bill.png";
 import binance from "./binance.png";
 import card from "./card.png";
+import card1 from "./card1.png";
+import card2 from "./card2.png";
+import card3 from "./card3.png";
 import logo from "./logo.svg";
 import logo2 from "./logo2.png";
 import quotes from "./quotes.svg";
@@ -24,12 +27,16 @@ import badoo from "./badoo.png";
 import instacart from "./instacart.png";
 import facebook from "./facebook.png";
 import amazon from "./amazon.png";
+import stars from "./stars.jpeg";
 
 export {
   airbnb,
   bill,
   binance,
   card,
+  card1,
+  card2,
+  card3,
   logo,
   quotes,
   robot,
@@ -52,4 +59,5 @@ export {
   instacart,
   facebook,
   amazon,
+  stars,
 };

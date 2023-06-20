@@ -22,7 +22,7 @@ const cardData = [
 
 const About = () => {
   return (
-    <div className="flex flex-col mt-8 md:flex-row">
+    <div className="flex flex-col mt-20 mb-10 md:flex-row">
       <div className="w-full p-4 md:w-1/4">
         <h2 className={`mb-4 text-2xl font-bold text-dimWhite text-center`}>About Norch Community</h2>
       </div>
