@@ -11,6 +11,7 @@ import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
 import { Carousel } from 'react-responsive-carousel';
 import { card1, card2, card3 } from '../assets';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import styles from '../style';
 
 const Cards = () => {
     return (
@@ -29,13 +30,11 @@ const Cards = () => {
                     />
                 </CardHeader>
                 <CardBody className="md:w-3/5">
-                    <Typography variant="h6" color="blue" className="mb-4 uppercase">
-                        startups
+                    <Typography variant="h4" color="blue-gray" className="mb-2 text-dimWhite">
+                        Lyft launching cross-platform service this week Lorem ipsum dolor sit amet.
                     </Typography>
-                    <Typography variant="h4" color="blue-gray" className="mb-2">
-                        Lyft launching cross-platform service this week
-                    </Typography>
-                    <Typography color="gray" className="mb-8 font-normal">
+                    <Typography color="gray" className={`${styles.paragraph} mb-8 font-normal`}>
+                        Like so many organizations these days, Autodesk is a company in transition. It was until recently a traditional boxed software company selling licenses. Yet its own business model disruption is only part of the story.
                         Like so many organizations these days, Autodesk is a company in transition. It was until recently a traditional boxed software company selling licenses. Yet its own business model disruption is only part of the story.
                     </Typography>
                     <a href="#" className="inline-block">
