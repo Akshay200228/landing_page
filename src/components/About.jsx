@@ -22,7 +22,7 @@ const cardData = [
 
 const About = () => {
   return (
-    <div className="flex flex-col mt-20 mb-10 md:flex-row">
+    <div className="flex flex-col mt-20 mb-10 md:flex-row" data-aos='fade-up' data-aos-delay='400'>
       <div className="w-full p-4 md:w-1/4">
         <h2 className={`mb-4 text-2xl font-bold text-dimWhite text-center`}>About Norch Community</h2>
       </div>
@@ -35,7 +35,7 @@ const About = () => {
             ex ac, bibendum felis. Quisque in vulputate risus, eget dapibus mauris. Nullam vitae justo et mi vestibulum gravida eget
             id enim. In semper felis sed finibus fermentum. Duis at tellus sed sapien lacinia dapibus.
           </p>
-          <div className="flex flex-wrap mt-4 -mx-1">
+          <div className="flex flex-wrap mt-4 -mx-1" data-aos='fade-up' data-aos-delay='500'>
             {cardData.map((card, index) => (
               <div className="w-full px-1 sm:w-1/2 md:w-1/4" key={index}>
                 <div className="p-4 mt-4 bg-gray-800 rounded-lg shadow hover:shadow-lg transition duration-300 transform hover:-translate-y-1 hover:scale-1.05">

@@ -15,7 +15,7 @@ import styles from '../style';
 
 const Cards = () => {
     return (
-        <div>
+        <div data-aos='fade-up' data-aos-delay='400'>
             {/* 1st Card */}
             <Card className="flex-col w-full mt-20 bg-gray-900 md:flex-row">
                 <CardHeader

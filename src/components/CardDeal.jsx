@@ -57,7 +57,7 @@ const cardsData = [
 
 const CardDeal = () => {
   return (
-    <section className="flex flex-wrap justify-center gap-8 mt-20">
+    <section className="flex flex-wrap justify-center gap-8 mt-20" data-aos='fade-up' data-aos-delay='400'>
       <div className="flex flex-col items-center justify-center w-full mb-8 text-center">
         <div className="flex items-center py-[6px] px-4 mb-2">
           <p className={`${styles.paragraph} mx-auto bg-discount-gradient`}>
