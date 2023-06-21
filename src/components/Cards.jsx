@@ -9,7 +9,7 @@ import {
 } from '@material-tailwind/react';
 import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
 import { Carousel } from 'react-responsive-carousel';
-import { card } from '../assets';
+import { bill } from '../assets';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import styles from '../style';
 
@@ -24,7 +24,7 @@ const Cards = () => {
                     className="bg-gray-900 md:w-2/5 h-96"
                 >
                     <img
-                        src={card}
+                        src={bill}
                         alt="image"
                         className="w-full h-full"
                     />
@@ -63,7 +63,7 @@ const Cards = () => {
                 {/* 2nd Card */}
                 <Card className="w-1/2 mr-2 bg-gray-900">
                     <CardHeader color="blue-gray" className="relative bg-gray-900 h-80">
-                        <img src={card} alt="img-blur-shadow" className="w-full h-full" />
+                        <img src={bill} alt="img-blur-shadow" className="w-full h-full" />
                     </CardHeader>
                     <CardBody>
                         <Typography variant="h4" color="blue-gray" className="mb-2 text-dimWhite">
@@ -98,7 +98,7 @@ const Cards = () => {
                 {/* 3rd Card */}
                 <Card className="w-1/2 mr-2 bg-gray-900">
                     <CardHeader color="blue-gray" className="relative bg-gray-900 h-80">
-                        <img src={card} alt="img-blur-shadow" className="w-full h-full" />
+                        <img src={bill} alt="img-blur-shadow" className="w-full h-full" />
                     </CardHeader>
                     <CardBody>
                         <Typography variant="h4" color="blue-gray" className="mb-2 text-dimWhite">
@@ -137,7 +137,7 @@ const Cards = () => {
                     <div>
                         <Card className="w-full bg-gray-900">
                             <CardHeader color="blue-gray" className="relative bg-gray-900 h-80">
-                                <img src={card} alt="img-blur-shadow" className="w-full h-full" />
+                                <img src={bill} alt="img-blur-shadow" className="w-full h-full" />
                             </CardHeader>
                             <CardBody>
                                 <Typography variant="h5" color="blue-gray" className="mb-2 text-dimWhite">
@@ -172,7 +172,7 @@ const Cards = () => {
                     <div>
                         <Card className="w-full bg-gray-900">
                             <CardHeader color="blue-gray" className="relative bg-gray-900 h-80">
-                                <img src={card} alt="img-blur-shadow" className="w-full h-full" />
+                                <img src={bill} alt="img-blur-shadow" className="w-full h-full" />
                             </CardHeader>
                             <CardBody>
                                 <Typography variant="h5" color="blue-gray" className="mb-2 text-dimWhite">
