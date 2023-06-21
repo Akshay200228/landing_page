@@ -5,7 +5,7 @@ import { discount, stars } from '../assets';
 const Stats = () => {
   return (
     <section
-      id="home"
+      id="stats"
       className={`mt-20 flex md:flex-row flex-col ${styles.paddingY}`}
       style={{
         background: `url(${stars}) center/cover`,
@@ -21,7 +21,7 @@ const Stats = () => {
             className='w-[32px] h-[32px]'
           />
           <p className={`${styles.paragraph} ml-2`}>
-            <span className='text-white'>Fastest</span> Copywriting your {" "}
+            <span className='text-white'>Fastest</span> Copywriting Your {" "}
             <span className='text-white'>Website</span>
           </p>
         </div>
