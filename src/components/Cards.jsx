@@ -37,8 +37,23 @@ const Cards = () => {
                         Like so many organizations these days, Autodesk is a company in transition. It was until recently a traditional boxed software company selling licenses. Yet its own business model disruption is only part of the story.
                         Like so many organizations these days, Autodesk is a company in transition. It was until recently a traditional boxed software company selling licenses. Yet its own business model disruption is only part of the story.
                     </Typography>
-                    <Button variant="text" className="flex items-center gap-2 bg-slate-100 hover:bg-dimWhite">
-                        Read More <ArrowLongRightIcon strokeWidth={2} className="w-5 h-5" />
+                    <Button
+                        color="lightBlue"
+                        buttonType="filled"
+                        size="regular"
+                        rounded={false}
+                        block={true}
+                        ripple="light"
+                        className="mt-4 mb-2 bg-gradient-to-r from-gray-500 via-gray-600 to-gray-700 hover:from-gray-700 hover:via-gray-600 hover:to-gray-500"
+                    >
+                        <Typography
+                            variant="button"
+                            color="white"
+                            className="flex items-center justify-center gap-1 text-sm font-semibold"
+                        >
+                            Read More
+                            <ArrowLongRightIcon strokeWidth={2} className="w-5 h-5" />
+                        </Typography>
                     </Button>
                 </CardBody>
             </Card>
@@ -59,8 +74,23 @@ const Cards = () => {
                         </Typography>
                     </CardBody>
                     <CardFooter className="flex justify-center pt-0">
-                        <Button variant="text" className="flex items-center gap-2 bg-slate-100 hover:bg-dimWhite">
-                            Read More <ArrowLongRightIcon strokeWidth={2} className="w-5 h-5" />
+                        <Button
+                            color="lightBlue"
+                            buttonType="filled"
+                            size="regular"
+                            rounded={false}
+                            block={true}
+                            ripple="light"
+                            className="mt-4 mb-2 bg-gradient-to-r from-gray-500 via-gray-600 to-gray-700 hover:from-gray-700 hover:via-gray-600 hover:to-gray-500"
+                        >
+                            <Typography
+                                variant="button"
+                                color="white"
+                                className="flex items-center justify-center gap-1 text-sm font-semibold"
+                            >
+                                Read More
+                                <ArrowLongRightIcon strokeWidth={2} className="w-5 h-5" />
+                            </Typography>
                         </Button>
                     </CardFooter>
                 </Card>
@@ -79,8 +109,23 @@ const Cards = () => {
                         </Typography>
                     </CardBody>
                     <CardFooter className="flex justify-center pt-0">
-                        <Button variant="text" className="flex items-center gap-2 bg-slate-100 hover:bg-dimWhite">
-                            Read More <ArrowLongRightIcon strokeWidth={2} className="w-5 h-5" />
+                        <Button
+                            color="lightBlue"
+                            buttonType="filled"
+                            size="regular"
+                            rounded={false}
+                            block={true}
+                            ripple="light"
+                            className="mt-4 mb-2 bg-gradient-to-r from-gray-500 via-gray-600 to-gray-700 hover:from-gray-700 hover:via-gray-600 hover:to-gray-500"
+                        >
+                            <Typography
+                                variant="button"
+                                color="white"
+                                className="flex items-center justify-center gap-1 text-sm font-semibold"
+                            >
+                                Read More
+                                <ArrowLongRightIcon strokeWidth={2} className="w-5 h-5" />
+                            </Typography>
                         </Button>
                     </CardFooter>
                 </Card>
@@ -103,8 +148,23 @@ const Cards = () => {
                                 </Typography>
                             </CardBody>
                             <CardFooter className="flex justify-center pt-0">
-                                <Button variant="text" className="flex items-center gap-2 bg-slate-100">
-                                    Read More <ArrowLongRightIcon strokeWidth={2} className="w-5 h-5" />
+                                <Button
+                                    color="lightBlue"
+                                    buttonType="filled"
+                                    size="regular"
+                                    rounded={false}
+                                    block={true}
+                                    ripple="light"
+                                    className="mt-4 mb-2 bg-gradient-to-r from-gray-500 via-gray-600 to-gray-700 hover:from-gray-700 hover:via-gray-600 hover:to-gray-500"
+                                >
+                                    <Typography
+                                        variant="button"
+                                        color="white"
+                                        className="flex items-center justify-center gap-1 text-sm font-semibold"
+                                    >
+                                        Read More
+                                        <ArrowLongRightIcon strokeWidth={2} className="w-5 h-5" />
+                                    </Typography>
                                 </Button>
                             </CardFooter>
                         </Card>
@@ -123,8 +183,23 @@ const Cards = () => {
                                 </Typography>
                             </CardBody>
                             <CardFooter className="flex justify-center pt-0">
-                                <Button variant="text" className="flex items-center gap-2 bg-slate-100">
-                                    Read More <ArrowLongRightIcon strokeWidth={2} className="w-5 h-5" />
+                                <Button
+                                    color="lightBlue"
+                                    buttonType="filled"
+                                    size="regular"
+                                    rounded={false}
+                                    block={true}
+                                    ripple="light"
+                                    className="mt-4 mb-2 bg-gradient-to-r from-gray-500 via-gray-600 to-gray-700 hover:from-gray-700 hover:via-gray-600 hover:to-gray-500"
+                                >
+                                    <Typography
+                                        variant="button"
+                                        color="white"
+                                        className="flex items-center justify-center gap-1 text-sm font-semibold"
+                                    >
+                                        Read More
+                                        <ArrowLongRightIcon strokeWidth={2} className="w-5 h-5" />
+                                    </Typography>
                                 </Button>
                             </CardFooter>
                         </Card>
