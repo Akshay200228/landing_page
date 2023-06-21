@@ -37,12 +37,9 @@ const Cards = () => {
                         Like so many organizations these days, Autodesk is a company in transition. It was until recently a traditional boxed software company selling licenses. Yet its own business model disruption is only part of the story.
                         Like so many organizations these days, Autodesk is a company in transition. It was until recently a traditional boxed software company selling licenses. Yet its own business model disruption is only part of the story.
                     </Typography>
-                    <a href="#" className="inline-block">
-                        <Button variant="text" className="flex items-center gap-2">
-                            Learn More
-                            <ArrowLongRightIcon strokeWidth={2} className="w-4 h-4" />
-                        </Button>
-                    </a>
+                    <Button variant="text" className="flex items-center gap-2 bg-slate-100 hover:bg-dimWhite">
+                        Read More <ArrowLongRightIcon strokeWidth={2} className="w-5 h-5" />
+                    </Button>
                 </CardBody>
             </Card>
 
@@ -54,17 +51,17 @@ const Cards = () => {
                         <img src={card2} alt="img-blur-shadow" className="w-full h-full" />
                     </CardHeader>
                     <CardBody>
-                        <Typography variant="h5" color="blue-gray" className="mb-2">
-                            UI/UX Review Check
+                        <Typography variant="h4" color="blue-gray" className="mb-2 text-dimWhite">
+                            Lock down copy you want to keep and the AI will the rest.
                         </Typography>
-                        <Typography>
-                            The place is close to Barceloneta Beach and bus stop just 2 min by walk
-                            and near to "Naviglio" where you can enjoy the main night life
-                            in Barcelona.
+                        <Typography color="gray" className={`${styles.paragraph} mb-8 font-normal`}>
+                            Like so many organizations these days, Autodesk is a company in transition. It was until recently a traditional boxed software company selling licenses. Yet its own business model disruption is only part of the story.
                         </Typography>
                     </CardBody>
-                    <CardFooter className="pt-0">
-                        <Button>Read More</Button>
+                    <CardFooter className="flex justify-center pt-0">
+                        <Button variant="text" className="flex items-center gap-2 bg-slate-100 hover:bg-dimWhite">
+                            Read More <ArrowLongRightIcon strokeWidth={2} className="w-5 h-5" />
+                        </Button>
                     </CardFooter>
                 </Card>
 
@@ -74,17 +71,17 @@ const Cards = () => {
                         <img src={card3} alt="img-blur-shadow" className="w-full h-full" />
                     </CardHeader>
                     <CardBody>
-                        <Typography variant="h5" color="blue-gray" className="mb-2">
-                            UI/UX Review Check
+                        <Typography variant="h4" color="blue-gray" className="mb-2 text-dimWhite">
+                            Lock down copy you want to keep and the AI will the rest.
                         </Typography>
-                        <Typography>
-                            The place is close to Barceloneta Beach and bus stop just 2 min by walk
-                            and near to "Naviglio" where you can enjoy the main night life
-                            in Barcelona.
+                        <Typography color="gray" className={`${styles.paragraph} mb-8 font-normal`}>
+                            Like so many organizations these days, Autodesk is a company in transition. It was until recently a traditional boxed software company selling licenses. Yet its own business model disruption is only part of the story.
                         </Typography>
                     </CardBody>
-                    <CardFooter className="pt-0">
-                        <Button>Read More</Button>
+                    <CardFooter className="flex justify-center pt-0">
+                        <Button variant="text" className="flex items-center gap-2 bg-slate-100 hover:bg-dimWhite">
+                            Read More <ArrowLongRightIcon strokeWidth={2} className="w-5 h-5" />
+                        </Button>
                     </CardFooter>
                 </Card>
             </div>
@@ -98,17 +95,17 @@ const Cards = () => {
                                 <img src={card2} alt="img-blur-shadow" className="w-full h-full" />
                             </CardHeader>
                             <CardBody>
-                                <Typography variant="h5" color="blue-gray" className="mb-2">
-                                    UI/UX Review Check
+                                <Typography variant="h5" color="blue-gray" className="mb-2 text-dimWhite">
+                                    Lock down copy you want to keep and the AI will the rest.
                                 </Typography>
-                                <Typography>
-                                    The place is close to Barceloneta Beach and bus stop just 2 min by walk
-                                    and near to "Naviglio" where you can enjoy the main night life
-                                    in Barcelona.
+                                <Typography className={`${styles.paragraph} mb-8 font-normal`}>
+                                    Like so many organizations these days, Autodesk is a company in transition. It was until recently a traditional boxed software company selling licenses. Yet its own business model disruption is only part of the story.
                                 </Typography>
                             </CardBody>
-                            <CardFooter className="pt-0">
-                                <Button>Read More</Button>
+                            <CardFooter className="flex justify-center pt-0">
+                                <Button variant="text" className="flex items-center gap-2 bg-slate-100">
+                                    Read More <ArrowLongRightIcon strokeWidth={2} className="w-5 h-5" />
+                                </Button>
                             </CardFooter>
                         </Card>
                     </div>
@@ -118,17 +115,17 @@ const Cards = () => {
                                 <img src={card3} alt="img-blur-shadow" className="w-full h-full" />
                             </CardHeader>
                             <CardBody>
-                                <Typography variant="h5" color="blue-gray" className="mb-2">
-                                    UI/UX Review Check
+                                <Typography variant="h5" color="blue-gray" className="mb-2 text-dimWhite">
+                                    Lock down copy you want to keep and the AI will the rest.
                                 </Typography>
-                                <Typography>
-                                    The place is close to Barceloneta Beach and bus stop just 2 min by walk
-                                    and near to "Naviglio" where you can enjoy the main night life
-                                    in Barcelona.
+                                <Typography className={`${styles.paragraph} mb-8 font-normal`}>
+                                    Like so many organizations these days, Autodesk is a company in transition. It was until recently a traditional boxed software company selling licenses. Yet its own business model disruption is only part of the story.
                                 </Typography>
                             </CardBody>
-                            <CardFooter className="pt-0">
-                                <Button>Read More</Button>
+                            <CardFooter className="flex justify-center pt-0">
+                                <Button variant="text" className="flex items-center gap-2 bg-slate-100">
+                                    Read More <ArrowLongRightIcon strokeWidth={2} className="w-5 h-5" />
+                                </Button>
                             </CardFooter>
                         </Card>
                     </div>
