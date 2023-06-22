@@ -22,17 +22,18 @@ const App = () => {
         </div>
       </div>
 
-      <div className={`${styles.flexStart}`} data-aos="fade">
+      <div className={`${styles.paddingX} ${styles.flexStart}`} data-aos="fade">
         <div className={`${styles.boxWidth}`}>
           <Hero />
         </div>
       </div>
 
-      <div className={`${styles.paddingX} ${styles.flexStart}`} data-aos="fade">
+      <div className={`${styles.paddingX} ${styles.flexStart} mt-10 border-t border-gray-500 rounded-t-[50px] rounded-b-none shadow-md`} data-aos="fade">
         <div className={`${styles.boxWidth}`}>
           <About />
         </div>
       </div>
+
       <div className={`${styles.paddingX} ${styles.flexStart}`} data-aos="fade">
         <div className={`${styles.boxWidth}`}>
           <Stats />
@@ -48,7 +49,7 @@ const App = () => {
           <Features />
         </div>
       </div>
-      <div className={`${styles.paddingX} ${styles.flexStart}`} data-aos="fade">
+      <div className={`${styles.paddingX} ${styles.flexStart} mt-10 border-t border-gray-500 rounded-t-[100px] rounded-b-none shadow-md`} data-aos="fade">
         <div className={`${styles.boxWidth}`}>
           <CardDeal />
         </div>
@@ -63,7 +64,7 @@ const App = () => {
           <FAQ />
         </div>
       </div>
-      <div className={`${styles.paddingX} ${styles.flexStart}`} data-aos="fade">
+      <div className={`${styles.paddingX} ${styles.flexStart} mt-10 bg-gray-900 rounded-t-[50px] rounded-b-none`} data-aos="fade">
         <div className={`${styles.boxWidth}`}>
           <Footer />
         </div>

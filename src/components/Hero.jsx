@@ -4,7 +4,7 @@ import { discount, wavo, winwap, heineken, berloni, badoo, instacart, facebook, 
 
 const Hero = () => {
   return (
-    <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`} data-aos='fade-up' data-aos-delay='400'>
+    <section id="home" className={`mb-16 flex md:flex-row flex-col ${styles.paddingY}`} data-aos='fade-up' data-aos-delay='400'>
       <div className={`flex-1 ${styles.flexCenter} flex-col xl:px-0 sm:px-16 px-6`}>
         <div className='flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2'>
           <img
