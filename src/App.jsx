@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import styles from './style';
-import { Navbar, Hero, CardDeal, Features, FAQ, Stats, Footer, Testimonials, About, Cards } from './components';
+import { Navbar, Hero, CardDeal, Features, FAQ, Stats, Footer, Testimonials, About, Cards  } from './components';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -28,7 +28,7 @@ const App = () => {
         </div>
       </div>
 
-      <div className={`${styles.paddingX} ${styles.flexStart} mt-10 border-t border-gray-500 rounded-t-[50px] rounded-b-none shadow-md`} data-aos="fade">
+      <div className={`${styles.paddingX} ${styles.flexStart} mt-10 border-t border-gray-500 rounded-t-[100px] rounded-b-none shadow-md`} data-aos="fade">
         <div className={`${styles.boxWidth}`}>
           <About />
         </div>
@@ -64,7 +64,7 @@ const App = () => {
           <FAQ />
         </div>
       </div>
-      <div className={`${styles.paddingX} ${styles.flexStart} mt-10 bg-gray-900 rounded-t-[50px] rounded-b-none`} data-aos="fade">
+      <div className={`${styles.paddingX} ${styles.flexStart} mt-10 border-t border-gray-500 rounded-t-[100px] rounded-b-none shadow-md bg-gray-900`} data-aos="fade">
         <div className={`${styles.boxWidth}`}>
           <Footer />
         </div>

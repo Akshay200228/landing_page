@@ -15,12 +15,9 @@ import styles from '../style';
 
 const Cards = () => {
     return (
-        <div>
+        <div data-aos='fade-up' data-aos-delay='400'>
             {/* 1st Card */}
-            <Card 
-                className="flex-col w-full mt-20 bg-gray-900 md:flex-row"
-                data-aos='fade-up' data-aos-delay='400'
-            >
+            <Card className="flex-col w-full mt-20 bg-gray-900 md:flex-row">
                 <CardHeader
                     shadow={false}
                     floated={false}
@@ -62,10 +59,7 @@ const Cards = () => {
             </Card>
 
             {/* 2nd and 3rd Cards - Only in Desktop View */}
-            <div 
-                className="hidden mt-12 md:flex"
-                data-aos='fade-up' data-aos-delay='500'
-            >
+            <div className="hidden mt-12 md:flex">
                 {/* 2nd Card */}
                 <Card className="w-1/2 mr-2 bg-gray-900">
                     <CardHeader color="blue-gray" className="relative bg-gray-900 h-80">
