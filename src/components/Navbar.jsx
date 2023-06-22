@@ -20,14 +20,14 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
-
-      {/* Buttons*/}
       <div className="hidden space-x-4 sm:flex">
         <button type="button" className={`py-4 px-6 font-poppins font-medium text-[14px] text-primary bg-blue-gradient rounded-[10px] outline-none`}>
           Get Started
         </button>
         <button className="px-4 py-2 text-sm text-white bg-gray-500 rounded-2xl hover:bg-gray-600">Login</button>
       </div>
+
+      {/* Mobile Navbar */}
 
       <div className='flex items-center justify-end flex-1 sm:hidden'>
         <img

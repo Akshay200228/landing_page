@@ -1,6 +1,6 @@
 import React from 'react';
 import { stars } from '../assets';
-import { testimonials } from '../data';
+import { testimonials } from '../constants/index';
 
 import styles from '../style';
 import ClientSlider from './ClientSlider';
