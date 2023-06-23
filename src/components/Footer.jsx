@@ -37,13 +37,13 @@ const Footer = () => {
           <div className="flex flex-col items-start">
             <img src={logo} alt="logo" className="w-[124px] h-[32px] mb-6" />
 
-            <Typography variant="body2" className="text-dimWhite">
+            <Typography variant="paragraph" className="text-dimWhite">
               Technology Park,<br />
               B-14 Mario Curie Street,<br />
               City, State, Country
             </Typography>
 
-            <Typography variant="body2" className="mt-6 text-dimWhite">
+            <Typography variant="paragraph" className="mt-6 text-dimWhite">
               Email: <a href="mailto:example@example.com" className="text-dimWhite">example@example.com</a>
             </Typography>
             <hr />
