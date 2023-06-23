@@ -28,6 +28,7 @@ const currentYear = new Date().getFullYear();
 const Footer = () => {
   return (
     <footer 
+    id="contact"
       className="relative w-full mt-20 mb-10" 
       data-aos='fade-up' data-aos-delay='600'
     >

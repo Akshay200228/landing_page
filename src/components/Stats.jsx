@@ -5,7 +5,7 @@ import { discount, stars } from '../assets';
 const Stats = () => {
   return (
     <section
-      id="stats"
+      id="company"
       className={`mt-20 flex md:flex-row flex-col ${styles.paddingY}`}
       style={{
         background: `url(${stars}) center/cover`,

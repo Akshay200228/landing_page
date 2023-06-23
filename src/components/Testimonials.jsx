@@ -10,7 +10,7 @@ const Testimonials = () => {
   const { title, clients } = testimonials;
 
   return (
-    <section id='testimonials' className='mt-20'>
+    <section id='blog' className='mt-20'>
       <div
         className={`flex md:flex-row flex-col ${styles.paddingY}`}
         style={{
@@ -35,7 +35,7 @@ const Testimonials = () => {
         </div>
       </div>
       {/* Testimonials */}
-      <div className='container mx-auto'>
+      <div className='container mx-auto' data-aos='fade-right' data-aos-delay='500'>
         {/* title */}
         <h2
           className='title mb-10 lg:mb-20 text-center max-w-[920px] mx-auto'
