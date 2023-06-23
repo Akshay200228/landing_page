@@ -16,13 +16,13 @@ const App = () => {
 
   return (
     <div className='w-full overflow-hidden' style={{ backgroundColor: '#0C0E10' }}>
-      <div className={`${styles.paddingX} ${styles.flexCenter}`} data-aos="fade">
+      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
         </div>
       </div>
 
-      <div className={`${styles.paddingX} ${styles.flexStart}`} data-aos="fade">
+      <div className={`${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Hero />
         </div>
