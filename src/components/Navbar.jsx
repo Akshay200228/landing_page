@@ -1,13 +1,23 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { close, logo, menu } from '../assets';
 import { navLinks } from '../constants';
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
+  const [logoAnimation, setLogoAnimation] = useState(true);
+
+  
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLogoAnimation(false);
+    }, 1000);
+    return () => clearTimeout(timer);
+  }, []);
+
 
   return (
     <nav className='fixed top-0 z-50 flex items-center justify-between w-full py-6 navbar backdrop-filter backdrop-blur-lg bg-opacity-70'>
-      <img src={logo} alt="logo" className='w-[124px] h-[32px]' />
+      <img src={logo} alt="logo" className={`w-[124px] h-[32px] ${logoAnimation ? 'animate-spin' : ''}`} />
       <ul className='items-center justify-end hidden space-x-4 sm:flex'>
         {navLinks.map((nav, index) => (
           <li
@@ -21,7 +31,7 @@ const Navbar = () => {
         ))}
       </ul>
       <div className="hidden mr-20 space-x-4 sm:flex">
-        <button type="button" className={`py-4 px-6 font-poppins font-medium text-[14px] text-primary bg-blue-gradient rounded-[10px] outline-none`}>
+        <button type="button" className={`animate-pulse py-4 px-6 font-poppins font-medium text-[14px] text-primary bg-blue-gradient rounded-[10px] outline-none`}>
           Get Started
         </button>
         <button className="px-4 py-2 text-sm text-white bg-gray-500 rounded-2xl hover:bg-gray-600">Login</button>
