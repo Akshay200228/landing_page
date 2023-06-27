@@ -76,7 +76,7 @@ const Footer = () => {
                       as="a"
                       href="#"
                       color="gray"
-                      className="py-1.5 font-normal transition-colors hover:text-gray-200 text-dimWhite"
+                      className="py-1.5 font-normal transition-colors text-dimWhite hover:text-secondary"
                     >
                       {link}
                     </Typography>
