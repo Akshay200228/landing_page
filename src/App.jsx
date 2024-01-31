@@ -35,7 +35,8 @@ const App = () => {
       ) : (
         <>
           <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-            <div className={`${styles.boxWidth}`}>
+            {/* <div className={`${styles.boxWidth}`}> */}
+            <div className={`w-full`}>
               <Navbar />
             </div>
           </div>

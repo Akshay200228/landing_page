@@ -23,7 +23,7 @@ const Navbar = () => {
         alt="logo"
         className="w-[124px] h-[32px]"
       />
-      <ul className="items-center justify-end hidden space-x-4 sm:flex">
+      <ul className="items-center justify-end hidden space-x-4 md:flex">
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
@@ -35,7 +35,7 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
-      <div className="hidden mr-20 space-x-4 sm:flex">
+      <div className="hidden mr-20 space-x-4 md:flex">
         <button
           type="button"
           className={`py-4 px-6 font-poppins font-medium text-[14px] text-white bg-blue-gradient rounded-[10px] outline-none ${
@@ -50,7 +50,7 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Navbar */}
-      <div className="flex items-center justify-end flex-1 mr-14 sm:hidden">
+      <div className="flex items-center justify-end flex-1 mr-10 sm:mr-20 md:hidden">
         <img
           src={toggle ? close : menu}
           alt="menu"
